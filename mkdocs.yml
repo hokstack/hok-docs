@@ -1,0 +1,5 @@
+site_name: HokStack - Run Hadoop on Kubernetes
+theme: readthedocs
+nav:
+    - Home: index.md
+    - About: about.md
