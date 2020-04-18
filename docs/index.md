@@ -1,7 +1,7 @@
 # HokStack - Hadoop On Kubernetes
 
 <p align="center">
-  <img width="700" height="300" src="images/cover.png">
+  <img width="700" height="300" src="/images/cover.png">
 </p>
 
 
@@ -12,7 +12,7 @@ HoK is Hadoop on Kubernetes, It helps you to deploy Hadoop stack on Kubernetes
 Kubernetes is now proven technology to deploy and distribute modules quickly and efficiently. Many cloud vendors are now offering Hadoop as a service. Companies are moving towards the model where they want to provision an instance of service on the fly and use it for analytics. Usually, it takes weeks to provision a production-ready Hadoop cluster. This platform is container-native platform serves as the Backbone for all other analytical services. This provides the user to spawn Hadoop cluster using the self-serve portal, which helps them to onboard the team quickly and efficiently so their developers can start using the cluster as soon as they join the team
 
 <p align="center">
-  <img width="600" height="500" src="images/hok-overview.svg">
+  <img width="600" height="500" src="/images/hok-overview.svg">
 </p>
 
 ## Installation
@@ -94,7 +94,7 @@ By default it will install following statefulsets.
  * metacontroller
  
  <p align="left">
-  <img width="600" height="300" src="images/hok-deployed.gif">
+  <img width="600" height="300" src="/images/hok-deployed.gif">
 </p>
 
 ## Component will be installed
@@ -110,7 +110,7 @@ By default it will install following statefulsets.
  * Spark2
 
  <p align="left">
-  <img width="700" height="400" src="images/hok-ambari-dash.gif">
+  <img width="700" height="400" src="/images/hok-ambari-dash.gif">
 </p>
 
 ## Need more components?
@@ -128,7 +128,7 @@ $ kubectl get svc dante-proxy
 Enter this port and Node IP address to the web-browser in proxy section, preferably `Firefox` as nowadays Chrome manages my orgnisations.
 
  <p align="left">
-  <img width="300" height="300" src="images/sock5-settings.png">
+  <img width="300" height="300" src="/images/sock5-settings.png">
 </p>
 
 ## Accessing Cluster and submiting Jobs
@@ -245,25 +245,3 @@ Global values
 | `kdc.persistentVolume.storage`                    | The storage size to be allocated to pod               | `10Gi`                                |                
 
 Full and up-to-date documentation can be found in the comments of the `values.yaml` file.
-
-
-
-## About Us
-
-HokStack is maintained by:
-
-* [Rohit Sharma](https://www.linkedin.com/in/rohitrsh/) ([@rohitrsh](https://twitter.com/rohitrsh))
-* [Shubhomoy Biswas](https://www.linkedin.com/in/shubhomoybiswas//) ([@shubhmoy](https://twitter.com/))
-
-## Credits
-
-Initially inspired from https://www.cloudera.com/tutorials/getting-started-with-hdp-sandbox.html
-
-## Contributing
-
-Currently we work on the code in our free time, any assistance is highly appreciated. Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
-
-
-## License
-
-HoKStack is under Apache 2.0 license. See [LICENSE.md](LICENSE.md) for details.
