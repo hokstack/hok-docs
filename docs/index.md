@@ -115,7 +115,7 @@ By default it will install following statefulsets.
 
 ## Need more components?
 
-[hdfsyarn.json](hokstack/files/ambari/hdfsyarn.json) contains the ambari blueprints, add componenets in the `host_groups` to add more HDP componenets.
+[hdfsyarn.json](files/hdfsyarn.json) contains the ambari blueprints, add componenets in the `host_groups` to add more HDP componenets.
 
 
 ## Accessing Cluster UI
