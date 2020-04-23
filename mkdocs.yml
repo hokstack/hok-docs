@@ -1,7 +1,29 @@
 site_name: HokStack - Run Hadoop on Kubernetes
-theme: readthedocs
-site_url: https://docs.hokstack.io
+# site_description:
 site_author: Rohit Sharma
+site_url: https://docs.hokstack.io
+
+# Repository
+repo_name: hokstack
+repo_url: https://github.com/hokstack
+edit_uri: ""
+
+theme:
+  name: material
+  logo: _images/logo.png
+  favicon: _images/favicon.png
+  language: en
+  feature:
+    tabs: false
+  palette:
+    primary: #5f4dee
+    accent: indigo
+
+docs_dir: docs
+
+extra_css:
+  - _static/custom.css
+
 nav:
     - Getting Started: index.md
     - Post Install: post-install.md
