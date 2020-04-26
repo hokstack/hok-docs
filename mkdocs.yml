@@ -25,10 +25,10 @@ extra_css:
   - _static/custom.css
 
 nav:
-    - Getting Started: index.md
+    - Getting Started - Helm Chart: index.md
     - Post Install: post-install.md
     - Secure Cluster (Kerberize): secure.md
-    - Data Migration: migration.md
+    - Installation Using Hok Operator: hok-operator.md
     - About us: about.md
     - Contributing: contributing.md
     - License: license.md
