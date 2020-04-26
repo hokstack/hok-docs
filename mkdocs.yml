@@ -1,5 +1,5 @@
 site_name: HokStack - Run Hadoop on Kubernetes
-# site_description:
+site_description: HokStack lets you run Hadoop in Kubernetes
 site_author: Rohit Sharma
 site_url: https://docs.hokstack.io
 
@@ -7,6 +7,48 @@ site_url: https://docs.hokstack.io
 repo_name: hokstack
 repo_url: https://github.com/hokstack
 edit_uri: ""
+
+# Copyright
+copyright: "Copyright &copy; 2020 HokStack Maintainer(s)"
+
+# Options
+extra:
+  search:
+    languages: "en"
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://hokstack.io
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/hokstack
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/hokstack
+
+
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 theme:
   name: material
